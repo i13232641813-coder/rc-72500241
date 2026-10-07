@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-10-07 19:47:54",
+  "basic": {
+    "status": "NOT_RUN"
+  },
+  "advanced": {
+    "passed": true,
+    "results": [
+      {
+        "color": "red",
+        "expected": [
+          480.0,
+          270.0
+        ],
+        "center": [
+          480.0,
+          270.0
+        ],
+        "successful_calls": 30,
+        "calls": 30,
+        "max_error_px": 0.0,
+        "detection_fps": 98.79428165512671,
+        "passed": true
+      },
+      {
+        "color": "blue",
+        "expected": [
+          1470.0,
+          270.0
+        ],
+        "center": [
+          1470.0,
+          270.0
+        ],
+        "successful_calls": 30,
+        "calls": 30,
+        "max_error_px": 0.0,
+        "detection_fps": 122.69752973075022,
+        "passed": true
+      },
+      {
+        "color": "green",
+        "expected": [
+          480.0,
+          643.3333333333334
+        ],
+        "center": [
+          480.0,
+          643.32278773652
+        ],
+        "successful_calls": 30,
+        "calls": 30,
+        "max_error_px": 0.010545596813358316,
+        "detection_fps": 121.5977457389913,
+        "passed": true
+      },
+      {
+        "color": "yellow",
+        "expected": [
+          1440.0,
+          800.0
+        ],
+        "center": [
+          1440.0,
+          800.0
+        ],
+        "successful_calls": 30,
+        "calls": 30,
+        "max_error_px": 0.0,
+        "detection_fps": 106.28735779221748,
+        "passed": true
+      }
+    ],
+    "image": "C:\\Users\\Austin\\rc_ws\\T07\\images\\patterns.png",
+    "measurement": "detection_only"
+  }
+}
