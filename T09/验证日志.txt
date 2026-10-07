@@ -1,0 +1,17 @@
+WARNING user config directory 'C:\Users\Austin\Documents\Codex\2026-09-23\ni\work\yolo_config\Ultralytics' is not writable, using 'C:\Users\Austin\Documents\Codex\2026-09-23\ni\Ultralytics'. Set YOLO_CONFIG_DIR to override.
+Creating new Ultralytics Settings v0.0.8 file  
+View Ultralytics Settings with 'yolo settings' or at 'C:\Users\Austin\Documents\Codex\2026-09-23\ni\Ultralytics\settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings.
+T09 submitted best.pt validation, 2026-10-07
+Model: C:\Users\Austin\Desktop\线上自学作业_72500241_廖卓涵\T09_72500241_廖卓涵\best.pt
+Data: C:\Users\Austin\Desktop\线上自学作业_72500241_廖卓涵\T09_72500241_廖卓涵\demo_dataset
+Settings: imgsz=320, batch=16, device=cpu, workers=0, plots=False
+Ultralytics 8.4.153  Python-3.11.0 torch-2.14.0+cpu CPU (Intel Core i7-14650HX)
+Model summary (fused): 72 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.10.0 ms, read: 2961.7739.2 MB/s, size: 358.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\Austin\Desktop\线上自学作业_72500241_廖卓涵\T09_72500241_廖卓涵\demo_dataset\labels\val... 52 images, 25 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 52/52 1.2Kit/s 0.0s
+[34m[1mval: [0mNew cache created: C:\Users\Austin\Desktop\_72500241_\T09_72500241_\demo_dataset\labels\val.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 1/4 1.1it/s 0.3s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 1.9it/s 0.5s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 3/4 2.7it/s 0.8s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 4.8it/s 0.8s
+                   all         52         27      0.997      0.926      0.987      0.749
+Speed: 0.3ms preprocess, 7.8ms inference, 0.0ms loss, 0.3ms postprocess per image
+Measured metrics: {"precision": 0.9967899131440953, "recall": 0.9259259259259259, "mAP50": 0.9866883116883117, "mAP50_95": 0.749152819480536}

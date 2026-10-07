@@ -1,0 +1,83 @@
+{
+  "splits": {
+    "train": {
+      "images": 205,
+      "labels": 205,
+      "objects": 106,
+      "empty_labels": 99
+    },
+    "val": {
+      "images": 52,
+      "labels": 52,
+      "objects": 27,
+      "empty_labels": 25
+    }
+  },
+  "errors": [],
+  "exact_cross_split_duplicates": 0,
+  "epochs": 50,
+  "last_epoch": {
+    "epoch": "50",
+    "time": "668.661",
+    "train/box_loss": "0.74714",
+    "train/cls_loss": "0.54691",
+    "train/dfl_loss": "1.00085",
+    "metrics/precision(B)": "0.99691",
+    "metrics/recall(B)": "0.92593",
+    "metrics/mAP50(B)": "0.98541",
+    "metrics/mAP50-95(B)": "0.74748",
+    "val/box_loss": "0.75813",
+    "val/cls_loss": "0.70875",
+    "val/dfl_loss": "1.04465",
+    "lr/pg0": "5.96e-05",
+    "lr/pg1": "5.96e-05",
+    "lr/pg2": "5.96e-05"
+  },
+  "weights": {
+    "best.pt": {
+      "bytes": 6225329,
+      "sha256": "a2dc80c95eaa5618ffb0073352c9a79a30316830c26c78ecdf5b49234cdbb8dc"
+    },
+    "last.pt": {
+      "bytes": 6225329,
+      "sha256": "cee5b9559eb42c18ff2f1f1d7dbd2ad85969419c4bad4a9f0044bc39ffaaf4ed"
+    },
+    "yolov8n.pt": {
+      "bytes": 6549796,
+      "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+    }
+  },
+  "validation": {
+    "precision": 0.9967899131440953,
+    "recall": 0.9259259259259259,
+    "mAP50": 0.9866883116883117,
+    "mAP50_95": 0.749152819480536
+  },
+  "versions": {
+    "ultralytics": "8.4.153",
+    "torch": "2.14.0+cpu",
+    "opencv": "5.0.0"
+  },
+  "weight_metadata": {
+    "best.pt": {
+      "epochs": 50,
+      "imgsz": 320,
+      "batch": 16,
+      "name": "train-2",
+      "data": "demo_dataset\\data.yaml",
+      "model": "..\\assets\\yolov8n.pt",
+      "checkpoint_version": "8.4.153",
+      "checkpoint_date": "2026-09-29T19:53:52.845092+08:00"
+    },
+    "last.pt": {
+      "epochs": 50,
+      "imgsz": 320,
+      "batch": 16,
+      "name": "train-2",
+      "data": "demo_dataset\\data.yaml",
+      "model": "..\\assets\\yolov8n.pt",
+      "checkpoint_version": "8.4.153",
+      "checkpoint_date": "2026-09-29T19:55:14.089081+08:00"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# 使用随附的 代码/train.py：它会将 path 按本配置所在目录解析。
+path: demo_dataset
+train: images/train
+val: images/val
+nc: 1
+names:
+  0: fire_extinguisher

@@ -1,0 +1,8 @@
+# 完整数据、模型和训练输出随提交包交付，不加入 GitHub。
+demo_dataset/
+dataset/
+train-2/
+*.pt
+runs/
+__pycache__/
+*.pyc
